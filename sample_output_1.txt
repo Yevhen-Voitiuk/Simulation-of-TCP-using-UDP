@@ -1,0 +1,32 @@
+Server side:
+
+yevhenvoitiuk@Yevhens-MacBook-Pro HW4 % python citcp-server.py 9001 small_file.txt
+INFO:root:
+Server: Waiting on a new connection on port 9001...
+INFO:root:Server: Received SYN from client
+INFO:root:Server: Sent SYN/ACK to client with ack_num: 1
+INFO:root:Server: Received ACK from client with seq_num1
+Handshake complete!
+INFO:root:Server: Sequence num confirmed to be correct!
+INFO:root:Server: Sent the packet to client with seq_num: 0
+INFO:root:Server: sent FIN to client
+INFO:root:Server: got ACK from client in response to FIN
+INFO:root:Server: got FIN from client
+INFO:root:Server: sent one last ACK to client
+INFO:root:
+Server: Waiting on a new connection on port 9001...
+
+----------------------------------------------------------------------------------
+
+Client side:
+
+yevhenvoitiuk@Yevhens-MacBook-Pro HW4 % python citcp-client.py localhost 9001 out.txt
+INFO:root:Client: Sent SYN message to server...
+INFO:root:Client: Received SYN/ACK from server with seq_num: 0
+INFO:root:Client: Ack num confirmed to be correct!
+INFO:root:Client: sent ACK to server with seq_num: 1
+INFO:root:Client: sent ACK for received packet... ack_num: 17
+INFO:root:Client: Received FIN message from server
+INFO:root:Client: Sent ACK to server in response to FIN
+INFO:root:Client: Sent FIN to server
+INFO:root:Client: Received ACK from server in response to FIN, we're done!

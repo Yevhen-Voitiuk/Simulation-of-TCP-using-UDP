@@ -1,0 +1,295 @@
+Server side:
+
+yevhenvoitiuk@Yevhens-MacBook-Pro HW4 % python citcp-server.py 9001 beeg_file.txt
+INFO:root:
+Server: Waiting on a new connection on port 9001...
+INFO:root:Server: Received SYN from client
+INFO:root:Server: Sent SYN/ACK to client with ack_num: 1
+INFO:root:Server: Received ACK from client with seq_num1
+Handshake complete!
+INFO:root:Server: Sequence num confirmed to be correct!
+INFO:root:Server: Sent the packet to client with seq_num: 0
+INFO:root:Server: Sent the packet to client with seq_num: 24
+INFO:root:Server: Sent the packet to client with seq_num: 48
+INFO:root:Server: Sent the packet to client with seq_num: 72
+INFO:root:Server: Sent the packet to client with seq_num: 96
+INFO:root:Server: Sent the packet to client with seq_num: 120
+INFO:root:Server: Sent the packet to client with seq_num: 144
+INFO:root:Server: Sent the packet to client with seq_num: 168
+INFO:root:Server: Sent the packet to client with seq_num: 192
+INFO:root:Server: Sent the packet to client with seq_num: 216
+INFO:root:Server: Sent the packet to client with seq_num: 240
+INFO:root:Server: Sent the packet to client with seq_num: 264
+INFO:root:Server: Sent the packet to client with seq_num: 288
+INFO:root:Server: Sent the packet to client with seq_num: 312
+INFO:root:Server: Sent the packet to client with seq_num: 336
+INFO:root:Server: Sent the packet to client with seq_num: 360
+INFO:root:Server: Sent the packet to client with seq_num: 384
+INFO:root:Server: Sent the packet to client with seq_num: 408
+INFO:root:Server: Sent the packet to client with seq_num: 432
+INFO:root:Server: Sent the packet to client with seq_num: 456
+INFO:root:Server: Sent the packet to client with seq_num: 480
+INFO:root:Server: Sent the packet to client with seq_num: 504
+INFO:root:Server: Sent the packet to client with seq_num: 528
+INFO:root:Server: Sent the packet to client with seq_num: 552
+INFO:root:Server: Sent the packet to client with seq_num: 576
+INFO:root:Server: Sent the packet to client with seq_num: 600
+INFO:root:Server: Sent the packet to client with seq_num: 624
+INFO:root:Server: Sent the packet to client with seq_num: 648
+INFO:root:Server: Sent the packet to client with seq_num: 672
+INFO:root:Server: Sent the packet to client with seq_num: 696
+INFO:root:Server: Sent the packet to client with seq_num: 720
+INFO:root:Server: Sent the packet to client with seq_num: 744
+INFO:root:Server: Sent the packet to client with seq_num: 768
+INFO:root:Server: Sent the packet to client with seq_num: 792
+INFO:root:Server: Sent the packet to client with seq_num: 816
+INFO:root:Server: Sent the packet to client with seq_num: 840
+INFO:root:Server: Sent the packet to client with seq_num: 864
+INFO:root:Server: Sent the packet to client with seq_num: 888
+INFO:root:Server: Sent the packet to client with seq_num: 912
+INFO:root:Server: Sent the packet to client with seq_num: 936
+INFO:root:Server: Sent the packet to client with seq_num: 960
+INFO:root:Server: Sent the packet to client with seq_num: 984
+INFO:root:Server: Sent the packet to client with seq_num: 1008
+INFO:root:Server: Sent the packet to client with seq_num: 1032
+INFO:root:Server: Sent the packet to client with seq_num: 1056
+INFO:root:Server: Sent the packet to client with seq_num: 1080
+INFO:root:Server: Sent the packet to client with seq_num: 1104
+INFO:root:Server: Sent the packet to client with seq_num: 1128
+INFO:root:Server: Sent the packet to client with seq_num: 1152
+INFO:root:Server: Sent the packet to client with seq_num: 1176
+INFO:root:Server: Sent the packet to client with seq_num: 1200
+INFO:root:Server: Sent the packet to client with seq_num: 1224
+INFO:root:Server: Sent the packet to client with seq_num: 1248
+INFO:root:Server: Sent the packet to client with seq_num: 1272
+INFO:root:Server: Sent the packet to client with seq_num: 1296
+INFO:root:Server: Sent the packet to client with seq_num: 1320
+INFO:root:Server: Sent the packet to client with seq_num: 1344
+INFO:root:Server: Sent the packet to client with seq_num: 1368
+INFO:root:Server: Sent the packet to client with seq_num: 1392
+INFO:root:Server: Sent the packet to client with seq_num: 1416
+INFO:root:Server: Sent the packet to client with seq_num: 1440
+INFO:root:Server: Sent the packet to client with seq_num: 1464
+INFO:root:Server: Sent the packet to client with seq_num: 1488
+INFO:root:Server: Sent the packet to client with seq_num: 1512
+INFO:root:Server: Sent the packet to client with seq_num: 1536
+INFO:root:Server: Sent the packet to client with seq_num: 1560
+INFO:root:Server: Sent the packet to client with seq_num: 1584
+INFO:root:Server: Sent the packet to client with seq_num: 1608
+INFO:root:Server: Sent the packet to client with seq_num: 1632
+INFO:root:Server: Sent the packet to client with seq_num: 1656
+INFO:root:Server: Sent the packet to client with seq_num: 1680
+INFO:root:Server: Sent the packet to client with seq_num: 1704
+INFO:root:Server: Sent the packet to client with seq_num: 1728
+INFO:root:Server: Sent the packet to client with seq_num: 1752
+INFO:root:Server: Sent the packet to client with seq_num: 1776
+INFO:root:Server: Sent the packet to client with seq_num: 1800
+INFO:root:Server: Sent the packet to client with seq_num: 1824
+INFO:root:Server: Sent the packet to client with seq_num: 1848
+INFO:root:Server: Sent the packet to client with seq_num: 1872
+INFO:root:Server: Sent the packet to client with seq_num: 1896
+INFO:root:Server: Sent the packet to client with seq_num: 1920
+INFO:root:Server: Sent the packet to client with seq_num: 1944
+INFO:root:Server: Sent the packet to client with seq_num: 1968
+INFO:root:Server: Sent the packet to client with seq_num: 1992
+INFO:root:Server: Sent the packet to client with seq_num: 2016
+INFO:root:Server: Sent the packet to client with seq_num: 2040
+INFO:root:Server: Sent the packet to client with seq_num: 2064
+INFO:root:Server: Sent the packet to client with seq_num: 2088
+INFO:root:Server: Sent the packet to client with seq_num: 2112
+INFO:root:Server: Sent the packet to client with seq_num: 2136
+INFO:root:Server: Sent the packet to client with seq_num: 2160
+INFO:root:Server: Sent the packet to client with seq_num: 2184
+INFO:root:Server: Sent the packet to client with seq_num: 2208
+INFO:root:Server: Sent the packet to client with seq_num: 2232
+INFO:root:Server: Sent the packet to client with seq_num: 2256
+INFO:root:Server: Sent the packet to client with seq_num: 2280
+INFO:root:Server: Sent the packet to client with seq_num: 2304
+INFO:root:Server: Sent the packet to client with seq_num: 2328
+INFO:root:Server: Sent the packet to client with seq_num: 2352
+INFO:root:Server: Sent the packet to client with seq_num: 2376
+INFO:root:Server: Sent the packet to client with seq_num: 2400
+INFO:root:Server: Sent the packet to client with seq_num: 2424
+INFO:root:Server: Sent the packet to client with seq_num: 2448
+INFO:root:Server: Sent the packet to client with seq_num: 2472
+INFO:root:Server: Sent the packet to client with seq_num: 2496
+INFO:root:Server: Sent the packet to client with seq_num: 2520
+INFO:root:Server: Sent the packet to client with seq_num: 2544
+INFO:root:Server: Sent the packet to client with seq_num: 2568
+INFO:root:Server: Sent the packet to client with seq_num: 2592
+INFO:root:Server: Sent the packet to client with seq_num: 2616
+INFO:root:Server: Sent the packet to client with seq_num: 2640
+INFO:root:Server: Sent the packet to client with seq_num: 2664
+INFO:root:Server: Sent the packet to client with seq_num: 2688
+INFO:root:Server: Sent the packet to client with seq_num: 2712
+INFO:root:Server: Sent the packet to client with seq_num: 2736
+INFO:root:Server: Sent the packet to client with seq_num: 2760
+INFO:root:Server: Sent the packet to client with seq_num: 2784
+INFO:root:Server: Sent the packet to client with seq_num: 2808
+INFO:root:Server: Sent the packet to client with seq_num: 2832
+INFO:root:Server: Sent the packet to client with seq_num: 2856
+INFO:root:Server: Sent the packet to client with seq_num: 2880
+INFO:root:Server: Sent the packet to client with seq_num: 2904
+INFO:root:Server: Sent the packet to client with seq_num: 2928
+INFO:root:Server: Sent the packet to client with seq_num: 2952
+INFO:root:Server: Sent the packet to client with seq_num: 2976
+INFO:root:Server: Sent the packet to client with seq_num: 3000
+INFO:root:Server: Sent the packet to client with seq_num: 3024
+INFO:root:Server: Sent the packet to client with seq_num: 3048
+INFO:root:Server: Sent the packet to client with seq_num: 3072
+INFO:root:Server: Sent the packet to client with seq_num: 3096
+INFO:root:Server: Sent the packet to client with seq_num: 3120
+INFO:root:Server: Sent the packet to client with seq_num: 3120
+INFO:root:Server: sent FIN to client
+INFO:root:Server: got ACK from client in response to FIN
+INFO:root:Server: got FIN from client
+INFO:root:Server: sent one last ACK to client
+INFO:root:
+Server: Waiting on a new connection on port 9001...
+
+----------------------------------------------------------------------------------
+
+Client side:
+
+yevhenvoitiuk@Yevhens-MacBook-Pro HW4 % python citcp-client.py localhost 9001 out.txt
+INFO:root:Client: Sent SYN message to server...
+INFO:root:Client: Received SYN/ACK from server with seq_num: 0
+INFO:root:Client: Ack num confirmed to be correct!
+INFO:root:Client: sent ACK to server with seq_num: 1
+INFO:root:Client: sent ACK for received packet... ack_num: 24
+INFO:root:Client: sent ACK for received packet... ack_num: 48
+INFO:root:Client: sent ACK for received packet... ack_num: 72
+INFO:root:Client: sent ACK for received packet... ack_num: 96
+INFO:root:Client: sent ACK for received packet... ack_num: 120
+INFO:root:Client: sent ACK for received packet... ack_num: 144
+INFO:root:Client: sent ACK for received packet... ack_num: 168
+INFO:root:Client: sent ACK for received packet... ack_num: 192
+INFO:root:Client: sent ACK for received packet... ack_num: 216
+INFO:root:Client: sent ACK for received packet... ack_num: 240
+INFO:root:Client: sent ACK for received packet... ack_num: 264
+INFO:root:Client: sent ACK for received packet... ack_num: 288
+INFO:root:Client: sent ACK for received packet... ack_num: 312
+INFO:root:Client: sent ACK for received packet... ack_num: 336
+INFO:root:Client: sent ACK for received packet... ack_num: 360
+INFO:root:Client: sent ACK for received packet... ack_num: 384
+INFO:root:Client: sent ACK for received packet... ack_num: 408
+INFO:root:Client: sent ACK for received packet... ack_num: 432
+INFO:root:Client: sent ACK for received packet... ack_num: 456
+INFO:root:Client: sent ACK for received packet... ack_num: 480
+INFO:root:Client: sent ACK for received packet... ack_num: 504
+INFO:root:Client: sent ACK for received packet... ack_num: 528
+INFO:root:Client: sent ACK for received packet... ack_num: 552
+INFO:root:Client: sent ACK for received packet... ack_num: 576
+INFO:root:Client: sent ACK for received packet... ack_num: 600
+INFO:root:Client: sent ACK for received packet... ack_num: 624
+INFO:root:Client: sent ACK for received packet... ack_num: 648
+INFO:root:Client: sent ACK for received packet... ack_num: 672
+INFO:root:Client: sent ACK for received packet... ack_num: 696
+INFO:root:Client: sent ACK for received packet... ack_num: 720
+INFO:root:Client: sent ACK for received packet... ack_num: 744
+INFO:root:Client: sent ACK for received packet... ack_num: 768
+INFO:root:Client: sent ACK for received packet... ack_num: 792
+INFO:root:Client: sent ACK for received packet... ack_num: 816
+INFO:root:Client: sent ACK for received packet... ack_num: 840
+INFO:root:Client: sent ACK for received packet... ack_num: 864
+INFO:root:Client: sent ACK for received packet... ack_num: 888
+INFO:root:Client: sent ACK for received packet... ack_num: 912
+INFO:root:Client: sent ACK for received packet... ack_num: 936
+INFO:root:Client: sent ACK for received packet... ack_num: 960
+INFO:root:Client: sent ACK for received packet... ack_num: 984
+INFO:root:Client: sent ACK for received packet... ack_num: 1008
+INFO:root:Client: sent ACK for received packet... ack_num: 1032
+INFO:root:Client: sent ACK for received packet... ack_num: 1056
+INFO:root:Client: sent ACK for received packet... ack_num: 1080
+INFO:root:Client: sent ACK for received packet... ack_num: 1104
+INFO:root:Client: sent ACK for received packet... ack_num: 1128
+INFO:root:Client: sent ACK for received packet... ack_num: 1152
+INFO:root:Client: sent ACK for received packet... ack_num: 1176
+INFO:root:Client: sent ACK for received packet... ack_num: 1200
+INFO:root:Client: sent ACK for received packet... ack_num: 1224
+INFO:root:Client: sent ACK for received packet... ack_num: 1248
+INFO:root:Client: sent ACK for received packet... ack_num: 1272
+INFO:root:Client: sent ACK for received packet... ack_num: 1296
+INFO:root:Client: sent ACK for received packet... ack_num: 1320
+INFO:root:Client: sent ACK for received packet... ack_num: 1344
+INFO:root:Client: sent ACK for received packet... ack_num: 1368
+INFO:root:Client: sent ACK for received packet... ack_num: 1392
+INFO:root:Client: sent ACK for received packet... ack_num: 1416
+INFO:root:Client: sent ACK for received packet... ack_num: 1440
+INFO:root:Client: sent ACK for received packet... ack_num: 1464
+INFO:root:Client: sent ACK for received packet... ack_num: 1488
+INFO:root:Client: sent ACK for received packet... ack_num: 1512
+INFO:root:Client: sent ACK for received packet... ack_num: 1536
+INFO:root:Client: sent ACK for received packet... ack_num: 1560
+INFO:root:Client: sent ACK for received packet... ack_num: 1584
+INFO:root:Client: sent ACK for received packet... ack_num: 1608
+INFO:root:Client: sent ACK for received packet... ack_num: 1632
+INFO:root:Client: sent ACK for received packet... ack_num: 1656
+INFO:root:Client: sent ACK for received packet... ack_num: 1680
+INFO:root:Client: sent ACK for received packet... ack_num: 1704
+INFO:root:Client: sent ACK for received packet... ack_num: 1728
+INFO:root:Client: sent ACK for received packet... ack_num: 1752
+INFO:root:Client: sent ACK for received packet... ack_num: 1776
+INFO:root:Client: sent ACK for received packet... ack_num: 1800
+INFO:root:Client: sent ACK for received packet... ack_num: 1824
+INFO:root:Client: sent ACK for received packet... ack_num: 1848
+INFO:root:Client: sent ACK for received packet... ack_num: 1872
+INFO:root:Client: sent ACK for received packet... ack_num: 1896
+INFO:root:Client: sent ACK for received packet... ack_num: 1920
+INFO:root:Client: sent ACK for received packet... ack_num: 1944
+INFO:root:Client: sent ACK for received packet... ack_num: 1968
+INFO:root:Client: sent ACK for received packet... ack_num: 1992
+INFO:root:Client: sent ACK for received packet... ack_num: 2016
+INFO:root:Client: sent ACK for received packet... ack_num: 2040
+INFO:root:Client: sent ACK for received packet... ack_num: 2064
+INFO:root:Client: sent ACK for received packet... ack_num: 2088
+INFO:root:Client: sent ACK for received packet... ack_num: 2112
+INFO:root:Client: sent ACK for received packet... ack_num: 2136
+INFO:root:Client: sent ACK for received packet... ack_num: 2160
+INFO:root:Client: sent ACK for received packet... ack_num: 2184
+INFO:root:Client: sent ACK for received packet... ack_num: 2208
+INFO:root:Client: sent ACK for received packet... ack_num: 2232
+INFO:root:Client: sent ACK for received packet... ack_num: 2256
+INFO:root:Client: sent ACK for received packet... ack_num: 2280
+INFO:root:Client: sent ACK for received packet... ack_num: 2304
+INFO:root:Client: sent ACK for received packet... ack_num: 2328
+INFO:root:Client: sent ACK for received packet... ack_num: 2352
+INFO:root:Client: sent ACK for received packet... ack_num: 2376
+INFO:root:Client: sent ACK for received packet... ack_num: 2400
+INFO:root:Client: sent ACK for received packet... ack_num: 2424
+INFO:root:Client: sent ACK for received packet... ack_num: 2448
+INFO:root:Client: sent ACK for received packet... ack_num: 2472
+INFO:root:Client: sent ACK for received packet... ack_num: 2496
+INFO:root:Client: sent ACK for received packet... ack_num: 2520
+INFO:root:Client: sent ACK for received packet... ack_num: 2544
+INFO:root:Client: sent ACK for received packet... ack_num: 2568
+INFO:root:Client: sent ACK for received packet... ack_num: 2592
+INFO:root:Client: sent ACK for received packet... ack_num: 2616
+INFO:root:Client: sent ACK for received packet... ack_num: 2640
+INFO:root:Client: sent ACK for received packet... ack_num: 2664
+INFO:root:Client: sent ACK for received packet... ack_num: 2688
+INFO:root:Client: sent ACK for received packet... ack_num: 2712
+INFO:root:Client: sent ACK for received packet... ack_num: 2736
+INFO:root:Client: sent ACK for received packet... ack_num: 2760
+INFO:root:Client: sent ACK for received packet... ack_num: 2784
+INFO:root:Client: sent ACK for received packet... ack_num: 2808
+INFO:root:Client: sent ACK for received packet... ack_num: 2832
+INFO:root:Client: sent ACK for received packet... ack_num: 2856
+INFO:root:Client: sent ACK for received packet... ack_num: 2880
+INFO:root:Client: sent ACK for received packet... ack_num: 2904
+INFO:root:Client: sent ACK for received packet... ack_num: 2928
+INFO:root:Client: sent ACK for received packet... ack_num: 2952
+INFO:root:Client: sent ACK for received packet... ack_num: 2976
+INFO:root:Client: sent ACK for received packet... ack_num: 3000
+INFO:root:Client: sent ACK for received packet... ack_num: 3024
+INFO:root:Client: sent ACK for received packet... ack_num: 3048
+INFO:root:Client: sent ACK for received packet... ack_num: 3072
+INFO:root:Client: sent ACK for received packet... ack_num: 3096
+INFO:root:Client: sent ACK for received packet... ack_num: 3120
+INFO:root:Client: sent ACK for received packet... ack_num: 3120
+INFO:root:Client: sent ACK for received packet... ack_num: 3139
+INFO:root:Client: Received FIN message from server
+INFO:root:Client: Sent ACK to server in response to FIN
+INFO:root:Client: Sent FIN to server
+INFO:root:Client: Received ACK from server in response to FIN, we're done!
+
